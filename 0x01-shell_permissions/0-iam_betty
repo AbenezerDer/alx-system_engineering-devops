@@ -1,2 +1,2 @@
 #!/bin/bash
-su betty'>user_betty
+su -l betty'>user_betty

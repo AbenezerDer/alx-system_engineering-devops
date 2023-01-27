@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-#Bash script that kills a process
-pkill -f 4-to_infinity_and_beyond
+# This script stops the 7-highlander process
+# Requirement: You cannot use kill or killall
+
+pkill -f 7-highlander

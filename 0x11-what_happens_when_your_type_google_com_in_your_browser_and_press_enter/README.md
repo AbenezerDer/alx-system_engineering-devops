@@ -1,0 +1,1 @@
+What happen when you type googe.com

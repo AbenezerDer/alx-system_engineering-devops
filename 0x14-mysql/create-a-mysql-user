@@ -1,0 +1,8 @@
+## Login to MySQL using the root account before creating a new user
+`mysql -u root -p` 
+## Create a new user
+`CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
+## Grant privileges
+`GRANT ALL PRIVILEGES ON *.* to 'sammy'@'localhost' IDENTIFIED BY 'password';`
+### If you want to remove the privileges
+`FLUSH PRIVILEGES;'
